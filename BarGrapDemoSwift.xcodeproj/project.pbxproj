@@ -15,6 +15,7 @@
 		1AFB0F1720C25725004AE8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFB0F1520C25725004AE8FA /* LaunchScreen.storyboard */; };
 		1AFB0F2220C25725004AE8FA /* BarGrapDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB0F2120C25725004AE8FA /* BarGrapDemoSwiftTests.swift */; };
 		1AFB0F2D20C25725004AE8FA /* BarGrapDemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB0F2C20C25725004AE8FA /* BarGrapDemoSwiftUITests.swift */; };
+		1AFB0F3B20C258DC004AE8FA /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFB0F3A20C258DC004AE8FA /* BarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1AFB0F2820C25725004AE8FA /* BarGrapDemoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGrapDemoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFB0F2C20C25725004AE8FA /* BarGrapDemoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGrapDemoSwiftUITests.swift; sourceTree = "<group>"; };
 		1AFB0F2E20C25725004AE8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFB0F3A20C258DC004AE8FA /* BarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1AFB0F0920C2571F004AE8FA /* AppDelegate.swift */,
 				1AFB0F0B20C2571F004AE8FA /* ViewController.swift */,
+				1AFB0F3A20C258DC004AE8FA /* BarCell.swift */,
 				1AFB0F0D20C2571F004AE8FA /* Main.storyboard */,
 				1AFB0F1320C25725004AE8FA /* Assets.xcassets */,
 				1AFB0F1520C25725004AE8FA /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFB0F1220C2571F004AE8FA /* BarGrapDemoSwift.xcdatamodeld in Sources */,
+				1AFB0F3B20C258DC004AE8FA /* BarCell.swift in Sources */,
 				1AFB0F0C20C2571F004AE8FA /* ViewController.swift in Sources */,
 				1AFB0F0A20C2571F004AE8FA /* AppDelegate.swift in Sources */,
 			);
